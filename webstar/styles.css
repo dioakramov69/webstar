@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 0 auto;
+}
+
+.site-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.site-logo {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 24px;
+  color: green;
+}
+
+.courses-select {
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.online-courses {
+  font-size: 19px;
+  color: green;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header-text {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.site-link-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.phone-number {
+  position: relative;
+  padding: 10px 15px 10px 35px;
+  border: 1px solid green;
+  border-radius: 6px;
+}
+
+.call-icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 150px;
+}
+
+.phone-number-link {
+  color: green;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.future-text-wrapper {
+  background-color: rgb(222, 211, 217);
+  width: 730px;
+  border-radius: 25px;
+}
+
+.register-wrapper {
+  background-color: rgb(245, 234, 214);
+  width: 600px;
+}
+
+.future-title {
+  width: 500px;
+  font-size: 36px;
+  color: rgb(141, 115, 45);
+  padding-top: 40px;
+  padding-left: 35px;
+}
+
+.future-text {
+  width: 560px;
+  font-size: 27px;
+  font-weight: 500;
+  color: rgb(141, 115, 45);
+  padding-top: 20px;
+  padding-left: 35px;
+  line-height: 30px;
+  padding-bottom: 100px;
+}
+
+.register-wrapper {
+  border-radius: 25px;
+}
+
+.free-consultation {
+  font-size: 36px;
+  padding-top: 40px;
+  padding-left: 35px;
+}
+
+.register-text {
+  font-size: 20px;
+  width: 500px;
+  line-height: 25px;
+  padding-left: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-input {
+  padding-left: 25px;
+  width: 90%;
+  height: 60px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: none;
+}
+
+.telphone-input {
+  width: 90%;
+  height: 60px;
+  padding-left: 25px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: none;
+  margin-top: 15px;
+}
+
+.send-submit-btn {
+  color: #fff;
+  font-weight: 700;
+  background-color: rgb(74, 195, 134);
+  text-align: center;
+  width: 90%;
+  height: 60px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.future_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 100px;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 1130px) {
+  .future_container {
+    display: block;
+  }
+
+  .future-text-wrapper {
+    margin: 0 auto;
+  }
+
+  .register-wrapper {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+
+}
+
+@media only screen and (max-width: 555px) {
+
+  .courses-select {
+    font-size: 10px;
+  }
+
+  .phone-number-link {
+    display: none;
+  }
+
+  .phone-number-link {
+    width: 65px;
+    height: 50px;
+  }
+
+  .phone-number {
+    padding: 20px 30px;
+  }
+
+  .call-icon {
+    position: absolute;
+    right: 25px;
+    bottom: 9px;
+  }
+
+  .online-courses {
+    font-size: 16px;
+  }
+
+}
